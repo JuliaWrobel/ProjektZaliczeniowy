@@ -1,0 +1,63 @@
+﻿<Window x:Class="Gui.Heaven"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Gui"
+        mc:Ignorable="d"
+        Title="Obsługa księgarni Heaven" Height="450" Width="800" ResizeMode="NoResize"
+        Background="LightPink">
+    <Grid>
+
+        <Label Content="Magazyn" HorizontalAlignment="Left" Height="33" Margin="89,165,0,0" VerticalAlignment="Top" Width="126" FontSize="14" HorizontalContentAlignment="Center"/>
+        <Label Content="Wyszukaj" HorizontalAlignment="Left" Height="33" Margin="89,366,0,0" VerticalAlignment="Top" Width="126" FontSize="14" HorizontalContentAlignment="Center"/>
+        <Label Content="Sprzedaj" HorizontalAlignment="Left" Height="33" Margin="563,165,0,0" VerticalAlignment="Top" Width="126" FontSize="14" HorizontalContentAlignment="Center"/>
+        <Label Content="Dostawa" HorizontalAlignment="Center" Height="33" Margin="0,165,0,0" VerticalAlignment="Top" Width="126" FontSize="14" HorizontalContentAlignment="Center"/>
+        <Label Content="Wyloguj" HorizontalAlignment="Left" Height="33" Margin="570,366,0,0" VerticalAlignment="Top" Width="126" FontSize="14" HorizontalContentAlignment="Center"/>
+
+        <Button Name="Wyloguj" Margin="563,237,96,73" Background="LightPink" BorderBrush="LightPink" Click="Wyloguj_Click">
+            <Button.Content>
+                <Image Source="logout1.png"/>
+            </Button.Content>
+        </Button>
+
+        <Button Name="Wyszukaj" Margin="89,237,570,73" Background="LightPink" BorderBrush="LightPink" Click="Wyszukaj_Click">
+            <Button.Content>
+                <Image Source="search.png"/>
+            </Button.Content>
+        </Button>
+
+        <Button Name="Sprzedane" Margin="563,36,96,274" Background="LightPink" BorderBrush="LightPink" Click="Sprzedane_Click">
+            <Button.Content>
+                <Image Source="selling.png"/>
+
+            </Button.Content>
+        </Button>
+        <Button Name ="Dostawa" Margin="330,36,330,274" Background="LightPink" BorderBrush="LightPink" Click="Dostawa_Click">
+            <Button.Content>
+                <Image Source="fast-delivery.png"/>
+            </Button.Content>
+        </Button>
+        <Button Name="Magazyn" Margin="89,36,570,274" Background="LightPink" BorderBrush="LightPink" Click="Magazyn_Click">
+            <Button.Content>
+                <Image Source="warehouse.png"/>
+            </Button.Content>
+        </Button>
+
+        <Button Name="Strona" Margin="346,237,308,73" Background="LightPink" BorderBrush="LightPink" Click="Strona_Click" RenderTransformOrigin="0.212,0.414">
+            <Button.Content>
+                <Image Source="web.png" />
+            </Button.Content>
+        </Button>
+        <Label Content="Hurtownia" HorizontalAlignment="Left" Height="33" Margin="346,366,0,0" VerticalAlignment="Top" Width="126" FontSize="14" HorizontalContentAlignment="Center"/>
+
+
+
+
+
+
+
+
+    </Grid>
+</Window>
+

@@ -1,0 +1,24 @@
+﻿<Window x:Class="Gui.Sprzedane"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Gui"
+        mc:Ignorable="d"
+        Title="Sprzedane" Height="450" Width="800" ResizeMode="NoResize"
+        Background="LightPink">
+    <Grid>
+        <Button HorizontalAlignment="Left" Height="42" Margin="28,10,0,0" VerticalAlignment="Top" Width="57" Click="Wstecz_Click" Background="LightPink" BorderBrush="LightPink">
+            <Button.Content>
+                <Image Source="arrow.png"/>
+            </Button.Content>
+        </Button>
+        <DataGrid Name="lista" CanUserSortColumns="True" Margin="28,114,265,37" Background="White" SelectionChanged="lista_SelectionChanged"/>
+        <Button Name ="Sprzedaj" Content="Sprzedaj" HorizontalAlignment="Left" Height="101" Margin="555,171,0,0" VerticalAlignment="Top" Width="210" Background="White" FontSize="14" Click="Sprzedaj_Click"/>
+
+        <TextBox Name ="Tytul" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="52" Margin="28,52,0,0" TextWrapping="Wrap" Text="Wprowadź tytuł" VerticalAlignment="Top" Width="507" FontSize="14"/>
+        <Button  Name="Szukaj" Content="Szukaj" HorizontalAlignment="Left" Height="52" Margin="555,52,0,0" VerticalAlignment="Top" Width="210" Background="White" FontSize="14" Click="Szukaj_Click"/>
+        <TextBox  Name="Ilosc" VerticalContentAlignment="Center" Text="Wprowadź ilość" HorizontalAlignment="Left" Height="52" Margin="555,114,0,0" VerticalAlignment="Top" Width="210" Background="White" FontSize="14" TextAlignment="Center"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="selling.png" />
+    <None Remove="web.png" />
+  </ItemGroup>
+
+
+
+  <ItemGroup>
+    <Reference Include="ProjektZaliczeniowy">
+      <HintPath>..\..\Projekt zaliczeniowy\bin\Debug\net8.0\ProjektZaliczeniowy.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="arrow.png" />
+    <Resource Include="fast-delivery.png" />
+    <Resource Include="logo(1)(1).png" />
+    <Resource Include="logout1.png" />
+    <Resource Include="search.png" />
+    <Resource Include="selling.png" />
+    <Resource Include="shopping-cart.png" />
+    <Resource Include="sold.png" />
+    <Resource Include="warehouse.png" />
+	<Resource Include="web.png" />
+	  <Content Include="Sounds\level-up-191997.mp3">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Sounds\buzzer-or-wrong-answer-20582.mp3">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.2903.40" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ProjektZaliczeniowy.NiepoprawnyRodzaj">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Kryminał.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjektZaliczeniowy.Kryminal">
+    <Position X="3.25" Y="6.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="ProjektZaliczeniowy.Kryminal.EnumRodzaj" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Kryminał.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAQAAAEgABAAAAAEAAAAAAAAAAAAAAAAhA=</HashCode>
+      <FileName>Kryminał.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ProjektZaliczeniowy.NiepoprawnaWartość">
+    <Position X="9.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ksiazka.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjektZaliczeniowy.NiepoprawnyFormatDaty">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ksiazka.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjektZaliczeniowy.Ksiazka">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgIAAEADAAQgBSkAIBRIAAAAQAAAAAAAAAMAAAICAA=</HashCode>
+      <FileName>Ksiazka.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ProjektZaliczeniowy.Magazyn">
+    <Position X="13" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAABAAAAgAABACEEAgAAAAAIAAQAAAKCBCIAAAQAIBg=</HashCode>
+      <FileName>Magazyn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjektZaliczeniowy.Podrecznik">
+    <Position X="6.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACCAAAAAgQAAAEgABAACAAEAAgAAAAAAAAAAAAAhA=</HashCode>
+      <FileName>Podrecznik.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ProjektZaliczeniowy.Fantastyka">
+    <Position X="4.75" Y="6.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="ProjektZaliczeniowy.Fantastyka.EnumRodzaj" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Fantastyka.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAQAAAEgABAAAAAEAAAAAAAAAAAAAAAAhA=</HashCode>
+      <FileName>Fantastyka.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ProjektZaliczeniowy.Program">
+    <Position X="13" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjektZaliczeniowy.Romans">
+    <Position X="8.5" Y="6.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="ProjektZaliczeniowy.Romans.EnumRodzaj" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Romans.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAQAAAEgABAAAAAEAAAAAAAAAAAAAAAAhA=</HashCode>
+      <FileName>Romans.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ProjektZaliczeniowy.LiteraturaFaktu">
+    <Position X="10.25" Y="6.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="ProjektZaliczeniowy.LiteraturaFaktu.EnumRodzaj" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>LiteraturaFaktu.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAQAAAEgABAAAAAEAAAAAAAAAAAAAAAAhA=</HashCode>
+      <FileName>LiteraturaFaktu.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Enum Name="ProjektZaliczeniowy.EnumPrzedmiot">
+    <Position X="11.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAACAAAAAAAAAACAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Podrecznik.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ProjektZaliczeniowy.EnumKlasa">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAA=</HashCode>
+      <FileName>Podrecznik.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

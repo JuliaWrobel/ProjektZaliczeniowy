@@ -1,0 +1,26 @@
+﻿<Window x:Class="Gui.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Gui"
+        mc:Ignorable="d"
+        Title="Logowanie do księgarni internetowej" Height="450" Width="800" ResizeMode="NoResize"
+        Background="LightPink">
+    <Grid>
+        <Image Margin="295,10,334,287" Source="logo(1)(1).png"/>
+
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="247" Margin="206,147,0,0" VerticalAlignment="Top" Width="350" CornerRadius="6,6,6,6">
+            <StackPanel HorizontalAlignment="Center" Height="207" VerticalAlignment="Center" Width="290">
+                <Label  Content="Login" Height="30" Width="268" HorizontalAlignment="Left" VerticalAlignment="Bottom"/>
+                <TextBox  Name="Username" VerticalContentAlignment="Center" Height="40" TextWrapping="Wrap" Text="" Width="268" VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="14"/>
+                <Label Content="Hasło" Height="30" Width="268" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                <PasswordBox Name="Password" VerticalContentAlignment="Center" Height="40" Width="268" HorizontalAlignment="Left" FontSize="14"/>
+                <Button Content="Zaloguj" Height="33" Width="108" Background="#FFFC8397" HorizontalAlignment="Center" Click="Button_Click"/>
+            </StackPanel>
+
+        </Border>
+
+    </Grid>
+</Window>
+
